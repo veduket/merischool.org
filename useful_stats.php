@@ -3,7 +3,10 @@
 <body id="index">
   <div class='container '>
     <!--Begin content -->
-
+    <div class="alert alert-success">
+     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+     <strong>Content being created. Please comeback tomorrow</strong>
+    </div>
     <!-- End of content-->
 
   </div>
