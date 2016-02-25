@@ -13,6 +13,8 @@
     <!-- Style CSS -->
     <link href="assets/css/bootstrap.css" media="screen" rel="stylesheet">
     <link href="assets/css/themes/vanilla-cream/style.css" media="screen" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" media="screen" rel="stylesheet">
+    <link href="assets/css/chosen.css" media="screen" rel="stylesheet">
     <link href="assets/css/main.css" media="screen" rel="stylesheet">
     <!-- Include all needed stylesheets and scripts here -->
 
@@ -22,4 +24,5 @@
         .gradient {filter: none !important;}
     </style>
     <![endif]-->
+    
 </head>

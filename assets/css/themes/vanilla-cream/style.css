@@ -926,8 +926,10 @@ h6.foo{
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-	width: auto;
-    max-width: none;
+	width: 100% !important;
+	margin:auto;
+  max-width: none;
+	height:100% !important;
 }
 .carousel-control {
 	position: absolute;
@@ -2450,14 +2452,16 @@ input[type="password"]:focus{
 }
 .widget_gallery .carousel{margin-bottom: 0;}
 .widget_gallery .carousel-inner {
-	height: 260px;
-    -webkit-box-shadow: 0 0 3px #585342;
-    -moz-box-shadow: 0 0 3px #585342;
-    box-shadow: 0 0 3px #585342;
+	/*height: 260px;*/
+	height: 460px;
+  -webkit-box-shadow: 0 0 3px #585342;
+  -moz-box-shadow: 0 0 3px #585342;
+  box-shadow: 0 0 3px #585342;
 
 }
 .widget_gallery .carousel-inner > .item{
-	height: 260px !important;
+	/*height: 260px !important;*/
+	height:100%;
 }
 .widget_gallery .carousel-title{
 	border-radius: 0;
@@ -2477,7 +2481,7 @@ input[type="password"]:focus{
 .widget_gallery .carousel-title p{font-size: 11px;}
 
 .widget_gallery .carousel-control {
-	top: 90px;
+	top: 200px;
 	left: -1px;
     width: 34px;
     height: 61px;
