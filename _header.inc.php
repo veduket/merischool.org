@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Template</title>
+    <title><?php echo stripcslashes($_SERVER['SCRIPT_NAME']);?></title>
     <!-- Style CSS -->
     <link href="assets/css/bootstrap.css" media="screen" rel="stylesheet">
     <link href="assets/css/themes/vanilla-cream/style.css" media="screen" rel="stylesheet">
