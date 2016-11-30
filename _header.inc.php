@@ -11,7 +11,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?php echo stripcslashes($_SERVER['SCRIPT_NAME']);?></title>
     <!-- Style CSS -->
-    <link href="assets/css/bootstrap.css" media="screen" rel="stylesheet">
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link href="assets/css/themes/vanilla-cream/style.css" media="screen" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" media="screen" rel="stylesheet">
     <link href="assets/css/chosen.css" media="screen" rel="stylesheet">
@@ -24,5 +25,5 @@
         .gradient {filter: none !important;}
     </style>
     <![endif]-->
-    
+
 </head>
